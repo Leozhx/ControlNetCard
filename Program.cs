@@ -15,6 +15,7 @@ namespace Engine
         static void Main(string[] args)
         {
             Console.WriteLine(DateTime.Now.ToString() + " 网卡控制程序启动..." + "\r");
+           //加一行注释 ，测试git
             // 获取上行MO线程
             Thread thread_getrecive = new Thread(new ThreadStart(thread_getMo));
             thread_getrecive.IsBackground = false;
